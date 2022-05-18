@@ -2171,13 +2171,7 @@
       // When the user scrolls down 50px from the top of the document, resize the header's font size
       window.onscroll = function () { scrollFunction() };
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          document.getElementById("cookie_agree").style.fontSize = "0.9em";
-        } else {
-          document.getElementById("cookie_agree").style.fontSize = "1em";
-        }
-      }
+     
     </script>
     <!-- 포트폴리오 -->
     <script src="../js/portfolio.jquery.js"></script>
@@ -2191,10 +2185,7 @@
 
     </script> -->
     <script>
-      $(document).ready(function () {
-        var offset = $(".sub_head").offset();
-        $('html, body').animate({ scrollTop: offset.top }, 400);
-      });
+      
     </script>
 
     <div class="sticky-wrapper" style="height: 88px;">
@@ -2763,7 +2754,7 @@
               domSlides.forEach(slide=>{
                let index= slide.dataset.index ;
                 if(index==IndexDom){
-                  console.log(slide)
+              
                   slide.classList.add('sp-selected');
                 }
               })
@@ -2836,10 +2827,10 @@
  </script>
  <script>
    let domas = document.querySelectorAll('a');
-   console.log(domas)
+  
    domas.forEach(e=>{
      let hrefa= e.href.slice(e.href.indexOf('/',8),e.href.length);
-       console.log(hrefa)
+      
       if(hrefa.startsWith("/main")||hrefa.startsWith("/pdf")||hrefa.startsWith("/bbs")){
         e.href="#";
       }

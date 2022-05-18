@@ -6067,7 +6067,25 @@ _:-ms-fullscreen,
         display: none;
     }
 }
-
+div#pt-section-two {
+    min-height: 500px;
+}
+.items li {
+  margin: 20px;
+  cursor: pointer;
+  padding: 20px;
+}
+li.active {
+    border-bottom: 4px solid;
+}
+.popup2:target {
+    /* opacity: 1; */
+    /* visibility: visible; */
+}
+address{
+  font-size: 20px;
+}
+  
 /* ë©”ì¸ ìŠ¬ë¼ì´ë“œ */
 .text01 {
     font-weight: bold;
