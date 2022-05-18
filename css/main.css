@@ -63,3 +63,21 @@
 .msec1 .swiper-slide .swiper-button-prev { width: 54px; height: 54px; background: url(../images/main/arrow_prev.png) no-repeat; top: 250px; left: 0 }
 .msec1 .swiper-slide .swiper-button-next { width: 54px; height: 54px; background: url(../images/main/arrow_next.png) no-repeat; top: 250px; left: 70px }
 }
+div#pt-section-two {
+    min-height: 500px;
+}
+.items li {
+  margin: 20px;
+  cursor: pointer;
+  padding: 20px;
+}
+li.active {
+    border-bottom: 4px solid;
+}
+.popup2:target {
+    /* opacity: 1; */
+    /* visibility: visible; */
+}
+address{
+  font-size: 20px;
+}
